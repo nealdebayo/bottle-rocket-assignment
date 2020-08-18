@@ -62,7 +62,7 @@ export const HomePage = () => {
             <div className="app__content">
                 {loading && (
                     <div className="load__wrapper">
-                        <p>loading....</p>
+                        <p>Loading....</p>
                     </div>
                 )}
                 {!loading &&

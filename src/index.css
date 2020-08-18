@@ -1,0 +1,16 @@
+@font-face {
+	font-family: "Avenir Next Demi Bold";
+	src: local("/fonts/Adobe Clean Bold"), local("Adobe-Clean-Bold"),
+		url("/fonts/Metropolis-Bold.otf") format("woff2"),
+		url("/fonts/Metropolis-Bold.otf") format("woff"),
+		url("/fonts/Metropolis-Bold.otf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	font-family: "Avenir Next Demi Bold";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

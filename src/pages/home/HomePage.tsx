@@ -60,7 +60,11 @@ export const HomePage = () => {
                 </div>
             </div>
             <div className="app__content">
-                {loading && <div className="load__wrapper">loading....</div>}
+                {loading && (
+                    <div className="load__wrapper">
+                        <p>loading....</p>
+                    </div>
+                )}
                 {!loading &&
                     items.length > 0 &&
                     items.map((item) => {

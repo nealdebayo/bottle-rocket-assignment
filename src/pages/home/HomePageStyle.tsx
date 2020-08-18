@@ -96,6 +96,11 @@ export const HomePageStyle = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        p {
+            color: #000;
+            text-align: center;
+        }
     }
 
     @media (max-width: 600px) {
